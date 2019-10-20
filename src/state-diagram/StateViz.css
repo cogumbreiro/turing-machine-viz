@@ -12,7 +12,7 @@
 }
 
 .current-state {
-  stroke: gold;
+  stroke: lightskyblue;
   stroke-width: 5px;
 }
 
@@ -28,13 +28,13 @@ text {
 }
 
 .edgelabel {
-  font-size: 10px;
-  fill: #aaa;
+  font-size: 15px;
+  fill: black;
   letter-spacing: 0.2em;
 }
 
 .edgepath {
-  stroke: #ccc;
+  stroke: black;
   fill: none;
   pointer-events: none;
 }
@@ -44,8 +44,8 @@ text {
 }
 
 #arrowhead, #reversed-arrowhead {
-  stroke: #ccc;
-  fill: #ccc;
+  stroke: black;
+  fill: black;
 }
 
 #active-arrowhead, #reversed-active-arrowhead {
