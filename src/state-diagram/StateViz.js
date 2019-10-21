@@ -336,7 +336,6 @@ function StateViz(container, nodes, linkArray) {
     .append('circle')
       .attr('class', 'node')
       .attr('r', nodeRadius)
-      .style('fill', function (d,i) { return colors(i); })
       .each(function (d) { d.domNode = this; })
       .on('dblclick', releasenode)
       .call(drag);

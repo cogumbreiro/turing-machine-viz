@@ -13,6 +13,7 @@
 }
 
 #tape-head {
-  fill: none;
-  stroke: rgb(230, 23, 23);
+  fill: rgba(230, 23, 23,0.1);;
+  stroke: rgba(230, 23, 23,0.5);
+  stroke-width: 5px;
 }
